@@ -12,13 +12,13 @@
 <input type="text" placeholder="Enter Title" name="title">
 
 <div>Body</div>
-<textarea name="body" id="umair" placeholder="Enter Body" cols="50" rows="7"></textarea>
+<textarea name="body" id="article" placeholder="Enter Body" cols="50" rows="7"></textarea>
 <br>
 <button type="submit">Insert</button>
 </form>
 
 <script>
-    CKEDITOR.replace("umair");
+    CKEDITOR.replace("article");
 </script>
 
 @endsection
