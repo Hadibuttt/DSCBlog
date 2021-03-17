@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
+<!--CK-Editor 4 CDN-->
 <script src="//cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
 
 <center><h1>Create Blog</h1></center>
