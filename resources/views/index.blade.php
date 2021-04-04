@@ -6,7 +6,7 @@
 
     <ol>
         <li><h3><a style="color:black;" href="/view-blogs">View Blogs:</a></h3></li>
-        <li><h3><a style="color:black;" href= "/create-blogs">Create Blogs:</a></h3></li>
+        <li><h3><a style="color:black;" href= "/create-blogs">Create Blog:</a></h3></li>
     </ol>
 
 @endsection
