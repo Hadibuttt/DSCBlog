@@ -39,7 +39,7 @@ class DSCBlogController extends Controller
             'title' => 'Required|Max:255',
             'body' => 'Required|Max:255'
         ]);
-
+// Stores Data into DB
         blog::create($validatedData);
         return redirect('/');
     }
