@@ -76,6 +76,7 @@ class DSCBlogController extends Controller
      */
     public function update(Request $request, $id)
     {
+        //update specific atttibutes of a row using id
         blog::where('id',$id)->update([
             'title' => $request->title,
             'body' => $request->body
