@@ -92,6 +92,7 @@ class DSCBlogController extends Controller
      */
     public function destroy($id)
     {
+        //find the id parameter of a row and deletes it
         blog::find($id)->delete();
         return redirect('/view-blogs');
     }
