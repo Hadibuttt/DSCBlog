@@ -62,7 +62,7 @@ class DSCBlogController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {
+    {   //displays the slected row in fields
         $blog = blog::where('id',$id)->first();
         return view('update-blog', compact('blog'));
     }
