@@ -99,6 +99,7 @@ class DSCBlogController extends Controller
 
     public function view()
     {
+        //retrieves blogs from DB
        $blogs = blog::all();
        return view('view',compact('blogs'));
     }
